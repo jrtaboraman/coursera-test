@@ -5,11 +5,19 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
 }
+h1 span {
+  background-color: hotpink;
+ }
 
-h4 {
+h2 {
     margin-right: 5px;
     color:#ffffff;
     text-align: right;
+
+}
+
+h2 span {
+  background-color: green;
 }
 
 p {
@@ -27,6 +35,7 @@ p {
 .row {
   width: 100%;
 }
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
